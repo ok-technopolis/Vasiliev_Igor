@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todo</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>todos</h1>
+            <form id="new-task-form">
+                <input type="text" id="new-task-input" required autofocus autocomplete="off" placeholder="What needs to be done?">
+            </form>
+        </header>
+        <div>
+            <input type="checkbox" name="mark-all" id="mark all">
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <input type="checkbox" name="done">
+                    <span>HTML</span>
+                    <span></span>
+                </li>
+                <li>
+                    <input type="checkbox" name="done" checked>
+                    <span><strike>CSS</strike></span>
+                    <span></span>
+                </li>
+                <li>
+                    <input type="checkbox" name="done">
+                    <span>JS</span
+                    >
+                    <span></span>
+                </li>
+                <li>
+                    <input type="checkbox" name="done">
+                    <span>JS tools</span
+                    >
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <span id="todos-left">3 items left</span>
+            <button id="show-all">All</button>
+            <button id="show-active">Active</button>
+            <button id="show-completed">Completed</button>
+            <button id="delete-all">Clear completed</button>
+        </div>
+    </div>
+</body>
+</html>
